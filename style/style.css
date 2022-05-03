@@ -1,0 +1,303 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+main {
+     margin: auto;
+    left: 50%;
+    top: 50%;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	font-weight: 400;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+}
+
+.free {
+	text-decoration: none;
+	color: hsl(322, 100%, 66%);
+	border: 1px solid hsl(322, 100%, 66%);
+}
+
+.headerbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.build-and-ready {
+	text-align: center;
+}
+
+.get-and-subscribe {
+	color: white;
+	background: hsl(322, 100%, 66%);
+	text-decoration: none;
+}
+
+.logotwo {
+	filter: brightness(0) invert(1);
+}
+
+footer {
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+}
+
+.infobox {
+	display: flex;
+}
+
+.social {
+	color: white;
+}
+
+.attribution {
+	font-size: 30%;
+	text-align: center;
+}
+
+@media screen and (min-width: 280px) {
+	main {
+		width: 330px;
+		padding: 1.3rem;
+	}
+
+	.free {
+		font-size: 65%;
+		border-radius: 15px;
+		padding: .3rem 1rem;
+	}
+
+	.footer {
+		background-image: url('../images/bg-footer-top-mobile.svg');
+		width: 289px;
+		height: 40px;
+		background-size: 100% 100%;
+		margin: -3rem 0 0 -1rem;
+		background-repeat: no-repeat;
+	}
+
+	.illustration {
+		width: 290px;
+		height: auto;
+	}
+
+	.box {
+		flex-direction: column;
+		margin-top: 4rem;
+	}
+
+	.reverse {
+		flex-direction: column-reverse;
+	}
+
+	.logo {
+		width: 96px;
+		height: 15.6px;
+	}
+
+	header {
+		font-size: 75%;
+	}
+
+	.explain {
+		font-size: 70%;
+		text-align: center;
+	}
+
+	.icons {
+		width: 30px;
+		height: auto;
+		float: left;
+	}
+
+	.stats {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.stats h1 {
+		font-size: 440%;
+		margin: .3rem 0 .4rem 0;
+	}
+
+	.statstwo {
+		margin: 2.5rem 0;
+	}
+
+	.screen {
+		margin-top: 4rem;
+	}
+
+	footer {
+		font-size: 65%;
+		padding: 1rem;
+	}
+
+	.get-and-subscribe {
+		padding: .6rem;
+		margin: 2rem auto 4rem auto;
+		display: block;
+        width: 160px;
+        border-radius: 20px;
+	}
+
+	.build-and-ready {
+		font-size: 70%;
+		margin: 9rem auto 9rem auto;
+	}
+
+	.subscribe {
+		float: right;
+		border-radius: .2rem;
+		text-align: center;
+		width: 50%;
+		margin-top: .5rem;
+	}
+
+	input {
+		width: 100%;
+		margin-top: 1.2rem;
+		border-radius: .2rem;
+		padding: .5rem;
+		outline: none;
+		border: none;
+	}
+
+	.logotwo {
+		width: 60%;
+		height: auto;
+	}
+
+	.infobox img {
+         margin-right: .7rem;
+         width: 20px;
+         height: 18px;
+	}
+
+	.infobox {
+		align-items: center;
+	}
+
+	.social {
+		font-size: 220%;
+	}
+
+	.socialbox {
+		margin-top: 1rem;
+	}
+
+	.instagram {
+		margin: auto .5rem;
+	}
+}
+
+@media screen and (min-width: 900px) {
+    
+    .illustration {
+    	width: 400px;
+    }
+
+    main {
+    	width: 900px;
+    }
+    
+    .screen {
+       width: 900px;
+    }
+
+    .box {
+    	flex-direction: row;
+    	justify-content: space-between;
+    }
+
+    .text {
+    	text-align: left;
+    }
+
+    .footer {
+		background-image: url('../images/bg-footer-top-desktop.svg');
+		margin: -5.9rem 0 0 -4rem;
+		width: 857px;
+		height: 94px;
+	}
+
+	footer {
+		padding: .1rem 4rem .1rem 4rem;
+		font-size: 60%;
+	}
+
+	form {
+		width: 50%;
+	}
+
+	.contact {
+		width: 30%;
+	}
+
+	.email {
+		display: flex;
+	}
+
+	.newsletter {
+		width: 65%;
+	}
+
+	input {
+		width: 55%;
+		padding: .5rem;
+		margin-top: 1.3rem;
+		height: 10%;
+	}
+
+	.subscribe {
+		width: 35%;
+		margin-top: 1.3rem;
+	}
+
+	.header h1 {
+		font-size: 310%;
+	}
+
+	.header p {
+		width: 60%;
+        margin: auto;
+        font-size: 110%;
+	}
+
+	.stats {
+		justify-content: space-evenly;
+	}
+
+	.logo {
+		width: 194px;
+		height: 30px;
+	}
+
+	.free {
+		font-size: 85%;
+		border-radius: 25px;
+		padding: .6rem 1.3rem;
+	}
+
+	.socialbox {
+		font-size: 110%;
+	}
+}
